@@ -10,6 +10,11 @@
 #import <SMS_SDK/SMSSDK.h>
 
 @interface ViewController ()
+{
+    
+    NSInteger a;
+    
+}
 
 @property (weak, nonatomic) IBOutlet UITextField *phoneTF;
 
@@ -34,10 +39,6 @@
 //        NSString *str = array[i];
 //        [array removeObject:str];
 //    }
-    
-    
-    
-    
     
 }
 
